@@ -6,7 +6,7 @@ import MDAnalysis as mda
 import numpy as np
 
 from artsm.generate_posre import main
-from fixtures import args_posre_module, file_posre
+from .fixtures import args_posre_module, file_posre
 
 
 def equal_lines(arr):

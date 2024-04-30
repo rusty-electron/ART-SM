@@ -7,7 +7,7 @@ import pytest
 
 from artsm.build_db import main
 from artsm.database.db import DBdata
-from fixtures import args_build_db_module, file_db0, file_db1, file_db2, file_db3
+from .fixtures import args_build_db_module, file_db0, file_db1, file_db2, file_db3
 
 
 def test_build_db_module_general_functionality(args_build_db_module):

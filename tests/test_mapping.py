@@ -2,7 +2,7 @@ import sys
 
 from artsm.mapping import main
 from artsm.utils.fileparsing import read_yaml
-from fixtures import args_mapping_module, file_mapping0
+from .fixtures import args_mapping_module, file_mapping0
 
 
 def test_mapping0(args_mapping_module, file_mapping0):

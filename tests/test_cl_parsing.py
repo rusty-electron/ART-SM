@@ -3,7 +3,7 @@ import re
 import pytest
 
 import artsm.utils.cli as cli
-from fixtures import args_build_db, args_backmap, args_mapping, args_cg, args_posre, args_append_db
+from .fixtures import args_build_db, args_backmap, args_mapping, args_cg, args_posre, args_append_db
 
 
 def test_build_db_cli_0(args_build_db):

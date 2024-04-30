@@ -1,6 +1,6 @@
 from artsm.utils.config import parse_args, check_config_db, check_config_bm
 import artsm.utils.cli as cli
-from fixtures import args_build_db_data, args_backmap_data
+from .fixtures import args_build_db_data, args_backmap_data
 
 
 def test_build_db_argparse_0(args_build_db_data):

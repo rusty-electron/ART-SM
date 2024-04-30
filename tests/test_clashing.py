@@ -1,7 +1,7 @@
 import numpy as np
 
 from artsm.utils.clashing_atoms import clashing_atoms
-from fixtures import args_clashing
+from .fixtures import args_clashing
 
 
 def test_clashing_atoms(args_clashing):

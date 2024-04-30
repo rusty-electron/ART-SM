@@ -7,7 +7,7 @@ import numpy as np
 from artsm.build_db import main as build_db_main
 from artsm.append_db import main as append_db_main
 from artsm.database.db import DBdata
-from fixtures import args_append_db_module, file_db0, file_db1
+from .fixtures import args_append_db_module, file_db0, file_db1
 
 
 def compare_none_or_array(arr1, arr2):

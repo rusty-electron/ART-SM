@@ -7,7 +7,7 @@ import numpy as np
 import pytest
 
 from artsm.coarse_grain import main
-from fixtures import args_cg_module, file_cg0, file_cg1
+from .fixtures import args_cg_module, file_cg0, file_cg1
 
 
 def test_cg0(args_cg_module):

@@ -7,7 +7,7 @@ import numpy as np
 
 from artsm.build_db import main as build_db_main
 from artsm.artsm import main as backmap_main
-from fixtures import args_backmap_module, file_db0, file_db1
+from .fixtures import args_backmap_module, file_db0, file_db1
 
 
 def test_seed(args_backmap_module):
